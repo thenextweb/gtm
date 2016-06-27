@@ -15,8 +15,7 @@ Features / Supports
 <hr />
 
 ### Quick start:
-	1. Download the ZIP, Unzip and import the `container.json` file in your current Google
-Tag Manager to give it a quick start.
+	1. Download the ZIP, Unzip and import the `container.json` file in your current Google Tag Manager to give it a quick start.
 	2. Go to variables and change the Google Analytics Tracking variable.
 	3. Customize the predefined custom dimensions in the Google Analytics - Pageview tag.
 
