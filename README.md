@@ -3,14 +3,19 @@ An example container for [Google Tag Manager](http://tagmanager.google.com) (Web
 that provides a lot of built-in features for tracking in Google Analytics.
 Created by [The Next Web](http://thenextweb.com).
 
-Features / Supports
--------------------
+Features / Supports (Web)
+-------------------------
 * A/B/n testing and Multivariate testing.
 * Outbound Link Tracking.
 * JavaScript Error Tracking.
 * Engagement Tracking: Scroll + Riveted.
 * Default Google Analytics Custom Dimensions.
 * YouTube Tracking.
+
+Features / Supports (AMP)
+-------------------------
+* Engagement Tracking: Scroll Tracking.
+* Default Google Analytics Custom Dimensions.
 
 <hr />
 
