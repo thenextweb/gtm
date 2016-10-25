@@ -1,0 +1,541 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2016-10-24 18:55:24",
+    "containerVersion": {
+        "accountId": "35032238",
+        "containerId": "2448800",
+        "containerVersionId": "0",
+        "deleted": false,
+        "container": {
+            "accountId": "35032238",
+            "containerId": "2448800",
+            "name": "TNW AMP",
+            "publicId": "GTM-M6PW4H",
+            "timeZoneCountryId": "US",
+            "timeZoneId": "America/Los_Angeles",
+            "notes": "",
+            "usageContext": [
+                "AMP"
+            ],
+            "fingerprint": "1476903767454",
+            "tagManagerUrl": "localhost:9001/#/container/accounts/35032238/containers/2448800/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "tagId": "3",
+                "name": "GA - Event - In Content Link",
+                "type": "ua_amp",
+                "liveOnly": false,
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "1"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Article"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "In Content Link"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "AMP"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{GA Tracking ID}}"
+                    }
+                ],
+                "fingerprint": "1475430093179",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "tagId": "2",
+                "name": "GA - Event - Scroll Depth",
+                "type": "ua_amp",
+                "liveOnly": false,
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{Scroll Top}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "AMP"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Scroll Top}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{GA Tracking ID}}"
+                    }
+                ],
+                "fingerprint": "1475430093179",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "tagId": "7",
+                "name": "GA - Event - Share",
+                "type": "ua_amp",
+                "liveOnly": false,
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "1"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Article"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Share"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "AMP"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{GA Tracking ID}}"
+                    }
+                ],
+                "fingerprint": "1475430093180",
+                "firingTriggerId": [
+                    "19"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "tagId": "1",
+                "name": "GA - Pageview",
+                "type": "ua_amp",
+                "liveOnly": false,
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customDimensions",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Document Referrer}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "25"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Container ID}} - {{Container Version}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Page URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "41"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{URL - Query}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Document Referrer}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{GA Tracking ID}}"
+                    }
+                ],
+                "fingerprint": "1476903754541",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "triggerId": "9",
+                "name": "Click - a",
+                "type": "AMP_CLICK",
+                "fingerprint": "1470834440176",
+                "selector": {
+                    "type": "TEMPLATE",
+                    "value": "a"
+                }
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "triggerId": "19",
+                "name": "Click - share",
+                "type": "AMP_CLICK",
+                "fingerprint": "1471272314117",
+                "selector": {
+                    "type": "TEMPLATE",
+                    "value": "amp-social-share"
+                }
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "triggerId": "16",
+                "name": "Scroll - Vertical - 25,50,75,100 percent",
+                "type": "AMP_SCROLL",
+                "fingerprint": "1470931620566",
+                "verticalScrollPercentageList": {
+                    "type": "TEMPLATE",
+                    "value": "25,50,75,100"
+                },
+                "horizontalScrollPercentageList": {
+                    "type": "TEMPLATE",
+                    "value": ""
+                }
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "variableId": "1",
+                "name": "GA Tracking ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-XXXXXX-X"
+                    }
+                ],
+                "fingerprint": "1475430093180",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "variableId": "22",
+                "name": "URL - Query",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "QUERY"
+                    }
+                ],
+                "fingerprint": "1476898863868"
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "folderId": "4",
+                "name": "Google Analytics",
+                "fingerprint": "1470129379520"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "PAGE_URL",
+                "name": "Page URL",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "PAGE_PATH",
+                "name": "Page Path",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "CONTAINER_ID",
+                "name": "Container ID",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_BROWSER_LANGUAGE",
+                "name": "Browser Language",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CANONICAL_PATH",
+                "name": "Canonical Path",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CANONICAL_URL",
+                "name": "Canonical URL",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CANONICAL_HOST",
+                "name": "Canonical Host",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_REFERRER",
+                "name": "Document Referrer",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_TITLE",
+                "name": "Document Title",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_ID",
+                "name": "Page Client ID",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_TIMEZONE",
+                "name": "Client Timezone",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_TIMESTAMP",
+                "name": "Client Timestamp",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_SCREEN_WIDTH",
+                "name": "Screen Width",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_SCREEN_HEIGHT",
+                "name": "Screen Height",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_SCROLL_X",
+                "name": "Scroll Left",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_SCROLL_Y",
+                "name": "Scroll Top",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_MAX_SCROLL_X",
+                "name": "Scroll Width",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_CLIENT_MAX_SCROLL_Y",
+                "name": "Scroll Height",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_TOTAL_ENGAGED_TIME",
+                "name": "Total Engaged Time",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_PAGE_VIEW_ID",
+                "name": "Page View ID",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_PAGE_LOAD_TIME",
+                "name": "Page Load Time",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_PAGE_DOWNLOAD_TIME",
+                "name": "Page Download Time",
+                "isEnabled": true
+            },
+            {
+                "accountId": "35032238",
+                "containerId": "2448800",
+                "type": "AMP_GTM_EVENT",
+                "name": "AMP Event",
+                "isEnabled": true
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "localhost:9001/#/versions/accounts/35032238/containers/2448800/versions/0?apiLink=version"
+    }
+}
